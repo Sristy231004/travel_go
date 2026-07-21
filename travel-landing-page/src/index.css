@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+@import 'swiper/css/navigation';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F8FAFC;
+  color: #0F172A;
+  font-family: system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #2563eb !important;
+}
