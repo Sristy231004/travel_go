@@ -1,3 +1,5 @@
+// Complete dummy data for Home Landing Page & Destinations Page
+
 export const stats = [
   { id: 1, title: "Happy Travelers", value: "15k+" },
   { id: 2, title: "Destinations", value: "250+" },
@@ -11,7 +13,7 @@ export const destinations = [
     country: "Indonesia",
     image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800",
     rating: 4.9,
-    price: " ₹ 50,000",
+    price: "₹4,00,000",
   },
   {
     id: 2,
@@ -19,7 +21,7 @@ export const destinations = [
     country: "France",
     image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800",
     rating: 4.8,
-    price: " ₹ 90,000",
+    price: "₹2,00,900",
   },
   {
     id: 3,
@@ -27,7 +29,7 @@ export const destinations = [
     country: "Japan",
     image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=800",
     rating: 4.9,
-    price: " ₹ 2,00,000",
+    price: "₹1,90,000",
   },
   {
     id: 4,
@@ -35,7 +37,7 @@ export const destinations = [
     country: "Greece",
     image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
     rating: 4.7,
-    price: " ₹ 4,90,000",
+    price: "2,00,000",
   },
 ];
 
@@ -84,7 +86,7 @@ export const packages = [
     name: "Tropical Island Paradise",
     image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800",
     duration: "6 Days / 5 Nights",
-    price: " ₹ 89,000",
+    price: "$899",
     rating: 4.9,
   },
   {
@@ -92,7 +94,7 @@ export const packages = [
     name: "European Cultural Heritage",
     image: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&q=80&w=800",
     duration: "8 Days / 7 Nights",
-    price: " ₹ 2,00,290",
+    price: "$1,450",
     rating: 4.8,
   },
   {
@@ -100,7 +102,7 @@ export const packages = [
     name: "Alpine Trekking Expedition",
     image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
     duration: "5 Days / 4 Nights",
-    price: "1,00,000",
+    price: "$650",
     rating: 4.7,
   },
 ];
@@ -130,4 +132,115 @@ export const testimonials = [
     rating: 4,
     review: "Great pricing and very clean UI! Will definitely use them again for our next family trip to Europe.",
   },
+];
+
+export const allDestinations = [
+  {
+    id: 1,
+    name: "Bali",
+    country: "Indonesia",
+    image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800",
+    rating: 4.9,
+    price: "₹4,50,000",
+    category: "Beach",
+  },
+  {
+    id: 2,
+    name: "Paris",
+    country: "France",
+    image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800",
+    rating: 4.8,
+    price: "₹2,79,000",
+    category: "Cultural",
+  },
+  {
+    id: 3,
+    name: "Kyoto",
+    country: "Japan",
+    image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=800",
+    rating: 4.9,
+    price: "₹1,79,000",
+    category: "Cultural",
+  },
+  {
+    id: 4,
+    name: "Santorini",
+    country: "Greece",
+    image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&q=80&w=800",
+    rating: 4.7,
+    price: "₹2,80,000",
+    category: "Beach",
+  },
+  {
+    id: 5,
+    name: "Swiss Alps",
+    country: "Switzerland",
+    image: "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&q=80&w=800",
+    rating: 4.9,
+    price: "₹2,00,000",
+    category: "Adventure",
+  },
+  {
+    id: 6,
+    name: "Rome",
+    country: "Italy",
+    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&q=80&w=800",
+    rating: 4.8,
+    price: "₹3,00,000",
+    category: "Historical",
+  },
+  {
+    id: 7,
+    name: "Cairo",
+    country: "Egypt",
+    image: "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800",
+    rating: 4.6,
+    price: "₹12,00,000",
+    category: "Historical",
+  },
+  {
+    id: 8,
+    name: "New York City",
+    country: "United States",
+    image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=800",
+    rating: 4.7,
+    price: "₹2,90,000",
+    category: "City",
+  },
+  {
+    id: 9,
+    name: "Cape Town",
+    country: "South Africa",
+    image: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&q=80&w=800",
+    rating: 4.8,
+    price: "₹5,00,000",
+    category: "Adventure",
+  },
+  {
+    id: 10,
+    name: "Phuket",
+    country: "Thailand",
+    image: "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&q=80&w=800",
+    rating: 4.7,
+    price: "2,00,000",
+    category: "Beach",
+  },
+  {
+    id: 11,
+    name: "Machu Picchu",
+    country: "Peru",
+    image: "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&q=80&w=800",
+    rating: 4.9,
+    price: "₹2,00,890",
+    category: "Adventure",
+  },
+  {
+    id: 12,
+    name: "Sydney",
+    country: "Australia",
+    image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&q=80&w=800",
+    rating: 4.8,
+    price: "₹3,91,000",
+    category: "City",
+  }
 ];
