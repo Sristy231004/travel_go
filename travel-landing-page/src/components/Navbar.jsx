@@ -20,15 +20,20 @@ const Navbar = () => {
           </span>
         </Link>
 
-        {/* Desktop Links */}
-        <ul className="hidden md:flex items-center gap-8 font-medium text-gray-600 text-sm">
-          <li><Link to="/" className="hover:text-blue-600 transition-colors">Home</Link></li>
-          <li><Link to="/destinations" className="hover:text-blue-600 transition-colors">Destinations</Link></li>
-          <li><a href="/#why-us" className="hover:text-blue-600 transition-colors">Why Choose Us</a></li>
-          <li><a href="/#packages" className="hover:text-blue-600 transition-colors">Packages</a></li>
-          <li><a href="/#testimonials" className="hover:text-blue-600 transition-colors">Reviews</a></li>
-        </ul>
-
+       {/* Desktop Links */}
+<ul className="hidden md:flex items-center gap-8 font-medium text-gray-600 text-sm">
+  <li><Link to="/" className="hover:text-blue-600 transition-colors">Home</Link></li>
+  <li><Link to="/destinations" className="hover:text-blue-600 transition-colors">Destinations</Link></li>
+  <li><a href="/#why-us" className="hover:text-blue-600 transition-colors">Why Choose Us</a></li>
+  <li><a href="/#packages" className="hover:text-blue-600 transition-colors">Packages</a></li>
+  <li><a href="/#testimonials" className="hover:text-blue-600 transition-colors">Reviews</a></li>
+  
+  <li>
+    <Link to="/admin" className="px-3 py-1 bg-slate-800 text-white rounded-lg text-xs font-semibold hover:bg-slate-700 transition-all">
+      Admin Panel
+    </Link>
+  </li>
+</ul>
         {/* Sign In Button */}
         <div className="hidden md:block">
           <button className="px-5 py-2 bg-blue-600 text-white rounded-full text-sm font-semibold hover:bg-blue-700 transition-all shadow-md">

@@ -1,6 +1,6 @@
 import React from "react";
 import { Compass } from "lucide-react";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-slate-900 text-gray-400 pt-12 pb-6 border-t border-slate-800">
@@ -32,16 +32,17 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Quick Links */}
-        <div>
-          <h4 className="text-white text-sm font-bold mb-3">Quick Links</h4>
-          <ul className="space-y-2 text-xs">
-            <li><a href="#home" className="hover:text-white transition-colors">Contact Support</a></li>
-            <li><a href="#home" className="hover:text-white transition-colors">Privacy Policy</a></li>
-            <li><a href="#home" className="hover:text-white transition-colors">Terms of Service</a></li>
-            <li><a href="#home" className="hover:text-white transition-colors">FAQ</a></li>
-          </ul>
-        </div>
+       {/* Quick Links */}
+<div>
+  <h4 className="text-white text-sm font-bold mb-3">Quick Links</h4>
+  <ul className="space-y-2 text-xs">
+    <li><a href="#home" className="hover:text-white transition-colors">Contact Support</a></li>
+    <li><a href="#home" className="hover:text-white transition-colors">Privacy Policy</a></li>
+    
+
+    <li><Link to="/admin" className="text-blue-400 hover:text-white transition-colors">Admin Dashboard</Link></li>
+  </ul>
+</div>
 
         {/* Social Links (Inline SVGs) */}
         <div>
